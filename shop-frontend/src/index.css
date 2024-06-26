@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'PatuaOne';
+    src: local('PatuaOne-Regular'),
+         url('./fonts/PatuaOne-Regular.ttf');
+}
+.thumbnail {
+    position: relative;
+    width: 100hv;
+}
+
+.caption {
+    font-family: PatuaOne;
+    font-size: 75px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+}
+.shop-label {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.underline-text {
+    text-decoration: underline;
+  }
